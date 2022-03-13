@@ -17,37 +17,46 @@
 	</head>
 	<style>
 		.calculator {
-			height: 100%;
 			width: 50%;
 			background-color: grey;
 		}
 		.screen {
-			height: 25vh;
-			width: 80%;
-			padding: 0 10% 0 10%;
+			display: inline-block;
+			height: 15vh;
+			width: 90%;
 			background-color: green;
 			color: white;
-			text-align: right;
+			margin: 5%;
+			border-radius: 25px;
+		}
+		#screen-number{
+			display: inline-block;
+			width: 90%;
+			height: 90%;		
+			font-size: 100%;
 		}
 		.number-btns {
-			height: 75vh;
-			width: 100%;
+			width: 90%;
+			margin: auto;
 		}
 		.btn {
 			height: 100%;
 			width: 100%;
 			border-radius: 100%;
 			font-size: 5em;
+			padding: 25%;
 		}
 	</style>
 	<body>
 		<!--[if lt IE 7]>
 			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
-		<div class='container-fluid'>
-			<div class='calculator'>
-				<div class='screen'>
-					This is the screen
+		<div class='container-fluid calculator'>
+			<!-- <div class='calculator'> -->
+				<div class='screen text-end justify-content-center'>
+					<div id='screen-number '>
+						Test
+					</div>
 				</div>
 				<div class='number-btns text-center'>
 					<div class='row'>
@@ -108,7 +117,7 @@
 				</div>
 				</div>
 				
-			</div>
+			<!-- </div> -->
 
 		</div>
 		
